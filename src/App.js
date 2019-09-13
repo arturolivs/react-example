@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css'
 
+import profile from './assets/profile.png'
+
 function App() {
-  return <h1>adad</h1>
+  return <img src={profile} />
 }
 
 export default App
